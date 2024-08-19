@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 import Locale from "intl-locale-textinfo-polyfill";
 import Provider from "@/provider";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "../globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,13 +20,13 @@ export default function RootLayout({
   params: { locale },
 }: PropsWithChildren<{ params: { locale: string } }>) {
   const { direction: dir } = new Locale(locale).textInfo;
-
   return (
     <html lang={locale} dir={dir}>
       <body className={inter.className}>
         <AppRouterCacheProvider>
           <Provider locale={locale}>{children}</Provider>
         </AppRouterCacheProvider>
+        <ToastContainer position={dir === "ltr" ? "bottom-right" : "bottom-left"} />
       </body>
     </html>
   );

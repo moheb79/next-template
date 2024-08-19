@@ -48,3 +48,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [react-icons](https://react-icons.github.io/react-icons/)
 - [next-international](https://next-international.vercel.app/docs)
 - [intl-locale-textinfo-polyfill](https://next-international.vercel.app/docs/rtl-support)
+- [react-toastify](https://fkhadra.github.io/react-toastify/introduction/)
