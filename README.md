@@ -46,3 +46,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [stylis](https://mui.com/material-ui/customization/right-to-left/)
 - [stylis-plugin-rtl](https://mui.com/material-ui/customization/right-to-left/)
 - [react-icons](https://react-icons.github.io/react-icons/)
+- [next-international](https://next-international.vercel.app/docs)
+- [intl-locale-textinfo-polyfill](https://next-international.vercel.app/docs/rtl-support)
