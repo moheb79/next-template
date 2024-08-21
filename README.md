@@ -49,3 +49,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [next-international](https://next-international.vercel.app/docs)
 - [intl-locale-textinfo-polyfill](https://next-international.vercel.app/docs/rtl-support)
 - [react-toastify](https://fkhadra.github.io/react-toastify/introduction/)
+- [prettier](https://prettier.io/)
+- [eslint-config-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
+- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+- [@typescript-eslint/eslint-plugin](https://typescript-eslint.io/)
+- [@typescript-eslint/parser](https://typescript-eslint.io/)
