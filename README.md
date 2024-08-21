@@ -54,3 +54,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
 - [@typescript-eslint/eslint-plugin](https://typescript-eslint.io/)
 - [@typescript-eslint/parser](https://typescript-eslint.io/)
+- [husky](https://typicode.github.io/husky/get-started.html)
+- [commitlint](https://commitlint.js.org/guides/getting-started.html)
