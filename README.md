@@ -56,3 +56,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [@typescript-eslint/parser](https://typescript-eslint.io/)
 - [husky](https://typicode.github.io/husky/get-started.html)
 - [commitlint](https://commitlint.js.org/guides/getting-started.html)
+- [@tanstack/react-query](https://tanstack.com/query/latest/docs/framework/react/installation)
+- [@tanstack/eslint-plugin-query](https://tanstack.com/query/latest/docs/eslint/eslint-plugin-query)
