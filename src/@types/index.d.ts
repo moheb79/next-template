@@ -1,1 +1,1 @@
-declare module "stylis"
+declare module "stylis";

@@ -1,5 +1,6 @@
-import { createI18nMiddleware } from "next-international/middleware";
 import { NextRequest } from "next/server";
+
+import { createI18nMiddleware } from "next-international/middleware";
 
 /*
   info:For better setup of next-international read the following links
@@ -9,7 +10,7 @@ import { NextRequest } from "next/server";
 const I18nMiddleware = createI18nMiddleware({
   locales: ["en", "fa"],
   defaultLocale: "en",
-  urlMappingStrategy: "rewrite",
+  urlMappingStrategy: "rewrite"
 });
 
 export function middleware(request: NextRequest) {
@@ -17,5 +18,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!api|static|.*\\..*|_next|favicon.ico|robots.txt).*)"],
+  matcher: ["/((?!api|static|.*\\..*|_next|favicon.ico|robots.txt).*)"]
 };
