@@ -58,3 +58,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [commitlint](https://commitlint.js.org/guides/getting-started.html)
 - [@tanstack/react-query](https://tanstack.com/query/latest/docs/framework/react/installation)
 - [@tanstack/eslint-plugin-query](https://tanstack.com/query/latest/docs/eslint/eslint-plugin-query)
+- [react-hook-form](https://react-hook-form.com/get-started)
+- [zod](https://zod.dev/?id=installation)
