@@ -2,10 +2,7 @@
 
 import { useMemo, type PropsWithChildren } from "react";
 
-import {
-  experimental_extendTheme as extendTheme,
-  Experimental_CssVarsProvider as CssVarsProvider
-} from "@mui/material/styles";
+import { extendTheme, ThemeProvider } from "@mui/material/styles";
 
 export default function MuiProvider({ children }: PropsWithChildren<object>) {
   /*
@@ -15,8 +12,8 @@ export default function MuiProvider({ children }: PropsWithChildren<object>) {
   const theme = useMemo(() => extendTheme({}), []);
 
   return (
-    <CssVarsProvider theme={theme} defaultMode="light">
+    <ThemeProvider theme={theme} defaultMode="light">
       {children}
-    </CssVarsProvider>
+    </ThemeProvider>
   );
 }
